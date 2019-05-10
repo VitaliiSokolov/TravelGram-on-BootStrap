@@ -404,13 +404,12 @@ i {
 
 /*CONTENT*/
 .site-content{
-margin: 40px 0px 0px 0px;
+margin: 45px 0px 0px 0px;
 }
 /*SIDEBAR*/
 
 .map-block {
     height: 900px;
-    width: 605px;
     box-shadow: 0px 11px 15.84px 2.16px rgba(0, 0, 0, 0.33);
 }
 
@@ -472,15 +471,19 @@ margin: 40px 0px 0px 0px;
     width: 600px;
     height: 70px;
     display: flex;
-    justify-content: center;
+    justify-content: inherit;
     align-content: center;
     align-items: center;
 }
 
 .social-aboutme {
-    width: 30px;
     text-decoration: none;
-    font-size: 14px;
+    font-size: 49px;
+}
+
+.facebook-a:hover {    
+    background: skyblue;
+    text-decoration: none;
 }
 
 .social-aboutme a {
@@ -506,4 +509,24 @@ margin: 40px 0px 0px 0px;
 .newsletter {
     height: 150px;
     margin: 45px 0px 0px 0px; 
+}
+
+.categories {
+    height: 150px;
+    margin: 45px 0px 0px 0px; 
+}
+
+.recent-post {
+    height: 150px;
+    margin: 45px 0px 0px 0px; 
+}
+
+.tags {
+    height: 150px;
+    margin: 45px 0px 0px 0px; 
+}
+
+.contact-me {
+    height: 150px;
+    margin: 45px 0px 70px 0px; 
 }

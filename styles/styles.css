@@ -43,6 +43,13 @@
     font-weight: normal;
 }
 
+@font-face {
+    font-family: "NEOTERIC";
+    src: url("../fonts/NEOTERIC.ttf");
+    font-style: normal;
+    font-weight: normal;
+}
+
 .search {
     align-items: center;
 }
@@ -395,6 +402,10 @@ i {
     background-color: white;
 }
 
+/*CONTENT*/
+.site-content{
+margin: 40px 0px 0px 0px;
+}
 /*SIDEBAR*/
 
 .map-block {
@@ -416,4 +427,83 @@ i {
     background-repeat: no-repeat;
     background-position: center;
     background-color: #ffffff;
+}
+
+
+
+
+.about-me {    
+    margin: 45px 0px 0px 0px;
+    box-shadow: 0px 11px 15.84px 2.16px rgba(0, 0, 0, 0.33);
+}
+
+.aboutme-header {
+    height: 80px;
+    background: url(../images/aboutme.png);
+    background-repeat: no-repeat;
+}
+
+.aboutme-text {
+    height: 175px;
+    width: 600px;
+    font-size: 25px;
+    font-family: 'Myriad Pro Regular';
+    text-align: center;
+    vertical-align: middle;
+}
+
+.aboutme-text h3 {
+    font-family: 'NEOTERIC.ttf';
+    font-size: 36px;
+}
+
+.aboutme-connected {
+    height: 140px;
+    width: 600px;
+    text-align: center;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.connected-aboutme {
+    width: 600px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+.social-aboutme {
+    width: 30px;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.social-aboutme a {
+    color: #575c5c;    
+} 
+
+.line-aboutme {
+    width: 432px;
+    height: 3px;
+    background-color: #dde1f4;
+    align-items: center;
+}
+
+.aboutme-photo {
+    height: 490px;
+    background: url(../images/aboutme-photo.png);
+    background-repeat: no-repeat;
+}
+
+
+
+
+.newsletter {
+    height: 150px;
+    margin: 45px 0px 0px 0px; 
 }

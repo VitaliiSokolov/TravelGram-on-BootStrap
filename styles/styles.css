@@ -408,6 +408,7 @@ margin: 45px 0px 0px 0px;
 }
 /*SIDEBAR*/
 
+/*MAP*/
 .map-block {
     height: 900px;
     box-shadow: 0px 11px 15.84px 2.16px rgba(0, 0, 0, 0.33);
@@ -428,9 +429,7 @@ margin: 45px 0px 0px 0px;
     background-color: #ffffff;
 }
 
-
-
-
+/*ABOUT ME*/
 .about-me {    
     margin: 45px 0px 0px 0px;
     box-shadow: 0px 11px 15.84px 2.16px rgba(0, 0, 0, 0.33);
@@ -503,9 +502,7 @@ margin: 45px 0px 0px 0px;
     background-repeat: no-repeat;
 }
 
-
-
-
+/*NewsLetter*/
 .newsletter {
     height: 300px;
     width: 600px;
@@ -516,6 +513,15 @@ margin: 45px 0px 0px 0px;
     box-shadow: 0px 11px 15.84px 2.16px rgba(0, 0, 0, 0.33);
 }
 
+.input-email {
+
+}
+
+.signup-button {
+    
+}
+
+/*CATEGORIES*/
 .categories {
     height: 330px;
     width: 600px;
@@ -523,6 +529,7 @@ margin: 45px 0px 0px 0px;
     box-shadow: 0px 11px 15.84px 2.16px rgba(0, 0, 0, 0.33); 
 }
 
+/*RECENT POST*/
 .recent-post {
     height: 790px;
     width: 600px;
@@ -530,6 +537,7 @@ margin: 45px 0px 0px 0px;
     box-shadow: 0px 11px 15.84px 2.16px rgba(0, 0, 0, 0.33);
 }
 
+/*TAGS*/
 .tags {
     height: 350px;
     width: 600px;
@@ -537,6 +545,7 @@ margin: 45px 0px 0px 0px;
     box-shadow: 0px 11px 15.84px 2.16px rgba(0, 0, 0, 0.33);
 }
 
+/*CONTACT ME*/
 .contact-me {
     height: 500px;
     width: 600px;

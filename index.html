@@ -6,95 +6,230 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" 
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" 
+        crossorigin="anonymous">
         
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" 
-        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" 
+        crossorigin="anonymous"></script>
         
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" 
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" 
+        crossorigin="anonymous"></script>
         
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" 
-        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" 
+        crossorigin="anonymous"></script>
 
+        
 
+        <link rel="stylesheet" type="text/css" href="./styles/styles.css" />
     </head>
 
     <body>
+        <!--HEADER-->
         <div class="container-fluid header">
             <div class="row logo-line">
-                <div class="search col-lg-2" style="background-color:aquamarine">
-                    Search
+                <div class=" col-lg-2" style="background-color:white">
+                    
                 </div>
 
-                <div class="search col-lg-3" style="background-color:white">
-                    empty
+                <div class="search col-lg-2" style="background-color:#fff">
+                    <input class="input-form" type="text" name="search" placeholder="Search and hit enter"> </input>
+                    <button class="input-icon">
+                        <a href="#"><i class="fas fa-search"></i></a>
+                    </button>
                 </div>
 
-                <div class="logo col-lg-2" style="background-color:orange">
-                    LOGO
+                <div class=" col-lg-1" style="background-color:white">                    
                 </div>
 
-                <div class="logo col-lg-3" style="background-color:white">
-                    empty
+                <div class="logo col-lg-2">
+                    <div class="row logo-header">
+                    </div>
+
+                    <h1 class="header-logo text-center">TRAVELGRAM</h1>                    
                 </div>
 
-                <div class="subscribe col-lg-2" style="background-color:yellow">
-                    Subscribe
+                <div class="col-lg-2" style="background-color:white">                    
                 </div>
+
+                <div class="subscribe col-lg-1">
+                    <a href="#" class="text-center">Subscribe</a>
+                </div>
+
+                <div class=" col-lg-2" style="background-color:white">                    
+                </div>
+            </div>
+
+            <div class="lines-gray row">
+                
+            </div>
+            <div class="line-white row">
+                
+            </div>
+            <div class="lines-gray row">
+                
+            </div>
+            <div class="line-white row">
+                
             </div>
 
             <div class="row nav-line">
-                <div class="empty-left col-lg-2" style="background-color:wheat">
-                    empty
+                <div class="empty-left col-lg-2">
+                    
                 </div>
 
-                <div class="navigation col-lg-5" style="background-color:yellowgreen">
-                    navigation
+                <div class="navigation col-lg-5">
+                   <div class="nav">
+                        <div>
+                            <a class="nav-link" href="#">Home</a> 
+                        </div>  
+                        <div>
+                            <a class="nav-link" href="#">Featured</a> 
+                        </div>  
+                        <div>
+                            <a class="nav-link" href="#">Blogs</a> 
+                        </div>  
+                        <div>
+                            <a class="nav-link" href="#">Gallary</a> 
+                        </div>  
+                        <div>
+                            <a class="nav-link" href="#">Categories</a> 
+                        </div>  
+                        <div>
+                            <a class="nav-link" href="#">Contact</a> 
+                        </div>  
+                    </div>
                 </div>
 
-                <div class="empty-middle col-lg-2" style="background-color:wheat">
-                    empty
+                <div class="empty-middle col-lg-1">
+                    
                 </div>
 
-                <div class="connected col-lg-2" style="background-color:yellowgreen">
-                    connected
+                <div class="connected col-lg-2">
+                    <div class="connected">
+                        <div class="social">
+                            <a class="facebook" href="#">
+                                <i class="fa fa-facebook" aria-hidden="true"></i>
+                            </a>
+                        </div>
+                        <div class="social">
+                            <a class="twitter" href="#">
+                               <i class="fab fa-twitter fa-x2"></i>
+                            </a>
+                        </div>
+                        <div class="social">
+                            <a class="google-plus" href="#">
+                                <i class="fab fa-google-plus"></i>
+                            </a>    
+                        </div>
+                        <div class="social">
+                            <a class="instargam" href="#">
+                                <i class="fa fa-instagram" aria-hidden="true"></i>
+                            </a>
+                        </div>
+                        <div class="social">
+                            <a class="youtube" href="#">
+                                <i class="fa fa-youtube-play" aria-hidden="true"></i>
+                            </a>
+                        </div>
+                    </div>
                 </div>
 
-                <div class="empty-right col-lg-1" style="background-color:wheat">
-                    empty
+                <div class="empty-right col-lg-2">
+                    
                 </div>
             </div>
         </div>
-
+        <!--MAIN-->
+        
         <div class="container-fluid main">
-            <div class="row site-content">
-                
-                <div class="slider col-lg-4" style="background-color:fuchsia">                    
+
+            <div class="row header-slider">
+                <div class="contaier-fluid black-slider">
+                        <div class="traveling">
+                                <img src="../TravelGram/images/traveling.png"/>
+                           </div>
+                           <div class="slider">
+                               <div class="featured-blog">
+                                    <p>FEATURED BLOG</p>
+                               </div>
+                               <div class="angles">
+                                    <div class="upper-angle">
+                                        <a href="#"><i class="fa fa-angle-up" aria-hidden="true"></i></a>
+                                    </div>
+                                    <div class="down-angle">
+                                        <a href="#"><i class="fa fa-angle-down" aria-hidden="true"></i></a>
+                                    </div>
+                               </div>
+                               <div class="slider-header">
+                                <p>LOST IN SPACE</p>
+                               </div>
+                               <div class="slider-text">
+                                <p>Some modern factory robots are "autonomous" within the strict confines of their direct environment. 
+                                    It may not be<br>
+                                    that every degree of freedom exists</p>
+                               </div>
+                               <div class="explore-button">
+                                   <a href="#">
+                                       <img src="../TravelGram/images/explore-now-button.png" width="150px" height="46px" alt="button"></a>
+                                    </a>
+                               </div>
+                               <div class="slider-paths">
+                                    <div class="circle">
+                                        
+                                    </div>
+                                    <div class="circle black">
+            
+                                    </div>
+                                    <div class="circle">
+            
+                                    </div>
+                                    <div class="circle">
+            
+                                    </div>
+                                    <div class="circle">
+            
+                                    </div>
+                               </div>
+                           </div>
+                </div>
+            </div>
+
+            <div class="row site-content">            
+                <div class="slider col-lg-4">                    
                     <div class="contaier-fluid">
-                            <div class="map row" style="background-color:plum">
-                                    Map
+                            <div class="map">
+                                    <div class="map-block">
+                                            <div class="map-header">
+                                                
+                                            </div>
+                                            <div class="map">
+                                                
+                                            </div>
+                                        </div>
                                 </div>
             
-                                <div class="map row" style="background-color:plum">
-                                    AboutMe
+                                <div class="AboutMe" style="background-color:plum">
+                                    
                                 </div>
             
-                                <div class="map row" style="background-color:plum">
+                                <div class="row" style="background-color:plum">
                                     Newsletter
                                 </div>
-                                <div class="map row" style="background-color:plum">
+                                <div class="row" style="background-color:plum">
                                     Categories
                                 </div>
-                                <div class="map row" style="background-color:plum">
+                                <div class="row" style="background-color:plum">
                                     Recent Post
                                 </div>
             
-                                <div class="map row" style="background-color:plum">
+                                <div class="row" style="background-color:plum">
                                     Tags
                                 </div>
             
-                                <div class="map row" style="background-color:plum">
+                                <div class="row" style="background-color:plum">
                                     Contact me
                                 </div>
                     </div>
@@ -160,7 +295,8 @@
 
             </div>
         </div>
-
+        <!--FOOTER-->
+        
         <div class="container-fluid footer" style="background-color:rebeccapurple">
             <div class="row photo1" style="background-color:khaki">
                 <div class="photo col-lg-3">
@@ -301,6 +437,6 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> 
     </body>
 </html>

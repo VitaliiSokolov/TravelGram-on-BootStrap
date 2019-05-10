@@ -1,0 +1,419 @@
+@import url("https://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css");
+
+
+@font-face {
+    font-family: "Zurich BlkEx BT Black";
+    src: url("../fonts/Zurich\ BlkEx\ BT\ Black.ttf");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "Myriad Pro Regular";
+    src: url("../fonts/Myriad\ Pro\ Regular.otf");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "MyriadPro-Semibold";
+    src: url("../fonts/MyriadPro-Semibold.otf");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "FontAwesome";
+    src: url("../fonts/FontAwesome.otf");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "Dosis-SemiBold";
+    src: url("../fonts/Dosis-SemiBold.otf");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "Merriweather-LightItalic";
+    src: url("../fonts/Merriweather-LightItalic.ttf");
+    font-style: normal;
+    font-weight: normal;
+}
+
+.search {
+    align-items: center;
+}
+
+.logo-line { 
+    height: 250px;
+    align-items: center;
+}
+
+
+.input-form { 
+    border: none;
+}
+
+.input-icon a {
+    font-family: fontawesome;
+    font-size: 15px;
+    color:gray;
+    text-decoration: none;
+}
+
+.input-icon a:hover {
+    color: pink;
+    text-decoration: none;
+}
+
+.logo {
+
+}
+
+.logo-header {
+    height: 165px;
+    background: url(../images/Mountains.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.header-logo {
+    
+}
+
+
+.subscribe {    
+    background-color: transparent;
+    border: solid 1px #e9e9e9;
+    text-align: center;
+    flex-direction: row;
+    width: 151px;
+    height: 40px;    
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Dosis-SemiBold';
+    font-size: 14px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.subscribe a {
+    color: #000;
+}
+
+.subscribe a:hover {
+    color: pink;
+    text-decoration: none;
+}
+
+.lines-gray {
+    height: 1px;
+    background-color: gray;
+}
+
+.line-white {
+    height: 3px;
+    background-color: white;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav-link {
+    font-size: 16px;
+    font-family: 'MyriadPro-Semibold';
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #000;
+}
+
+.nav-link:hover {
+    color: pink;
+    text-decoration: none;
+}
+
+.connected {
+    display: flex;
+    flex-grow: 1;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+}
+.connected a {
+    color: #575c5c;
+    display: flex;    
+}
+
+.social {
+    text-align: center;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.social  i {
+    display: flex;
+    font-family: 'FontAwesome';
+    font-size: 14px;
+    text-decoration: none;   
+    align-content: space-between; 
+}
+
+i {
+    text-align: center;
+    position: relative;
+}
+
+.facebook {
+    text-decoration: none;
+    font-size: 14px;    
+}
+
+.facebook:hover {
+    background: skyblue;
+    text-decoration: none;
+}
+
+.twitter {
+    text-decoration: none;
+}
+
+.twitter:hover {
+    background: aqua;
+    text-decoration: none;
+}
+
+.google-plus {
+    text-decoration: none;
+}
+
+.google-plus:hover {
+    background: orange;
+    text-decoration: none;
+}
+
+.instagram {
+    text-decoration: none;
+}
+
+.instargam:hover {
+    background: pink;
+    text-decoration: none;
+}
+
+.youtube {
+    text-decoration: none;
+}
+
+.youtube:hover {
+    background: red;
+    text-decoration: none;
+}
+
+/*HEADER SLIDER*/
+
+.header-slider {
+    height: 890px;
+    background: url("../images/upperlayer-slider.png") , 
+    url("../images/slider.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-x: 0px;
+    background-position-y: -40px;
+}
+
+.black-slider {
+    
+}
+
+.traveling {
+    width: 270px;
+    height: 50px;
+    position: relative;
+    top: 155px;
+    left: 40px;
+}
+
+.slider {
+    position: relative;
+}
+  
+.featured-blog {
+    width: 140px;
+    height: 37px;
+    position: absolute;
+    top: 513px;
+    left: 38px;
+    font-size: 18px;
+    font-family: 'MyriadPro-Semibold';
+    color: rgb(255, 255, 255);
+    line-height: 1.067;
+    text-align: left;
+    z-index: 322;
+}
+
+.angles {
+    position: absolute;
+    top: 570px;
+    left: 38px;
+    width: 45px;
+    height: 90px;
+}
+
+.upper-angle {
+    border: solid #ffffff 1px;
+    width: 43px;
+    height: 43px;
+    text-align: center;
+}
+
+.upper-angle:hover {
+    background-color: #e21712;
+}
+
+.fa-angle-up {
+    font-family: 'FontAwesome';
+    font-size: 28px;
+    color: #fff; 
+    text-align: center;
+    top: 5px;
+    width: 43px;
+    height: 43px;
+}
+
+.down-angle {
+    border: solid #ffffff 1px;
+    width: 43px;
+    height: 43px;
+    text-align: center;
+}
+
+.fa-angle-down {
+    font-family: 'FontAwesome';
+    font-size: 28px;
+    color: #fff; 
+    text-align: center;
+    top: 10px;
+}
+
+.down-angle:hover {
+    background-color: #e21712;
+}
+
+.slider-header {
+    width: 480px;
+    height: 48px;
+    position: absolute;
+    top: 560px;
+    left: 70px;
+}  
+
+.slider-header p{
+    font-family: 'Zurich BlkEx BT Black';
+    font-size: 44px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 44px;
+    margin: auto;
+    color: #fff;
+}
+
+.slider-text {
+    color: #fff;
+    width: 517px;
+    height: 52px;
+    position: absolute;
+    top: 610px;
+    left: 110px;
+}
+
+.slider-text p {
+    font-family: 'Myriad Pro Regular';
+    font-size: 15px;
+    margin: auto;
+    text-align: left;
+}
+
+.explore-button {
+    width: 150px;
+    height: 46px;
+    position: absolute;
+    top: 690px;
+    left: 110px;
+}
+
+.explore-button a {
+    width: 150px;
+    height: 46px;
+}
+
+.slider-paths {
+    opacity: 30%;
+    width: 65px;
+    height: 15px;    
+    position: absolute;
+    top: 770px;
+    left: 110px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.circle {
+    height: 10px;
+    width: 9px;
+    background-color: #fff;
+    border-radius: 50%;
+}
+
+.circle:hover{
+    height: 10px;
+    width: 9px;    
+    border: solid 1px #fff;
+    background-color: black;
+    
+}
+
+.black {
+    background-color: black;
+    border: solid 1px #fff;
+    height: 10px;
+    width: 9px;
+    
+}
+
+.circle:hover ~ .black {
+    background-color: white;
+}
+
+/*SIDEBAR*/
+
+.map-block {
+    height: 900px;
+    width: 605px;
+    box-shadow: 0px 11px 15.84px 2.16px rgba(0, 0, 0, 0.33);
+}
+
+.map-header {
+    height: 102px;
+    background: url(../images/where\ i\ am.png);
+    background-repeat: no-repeat;
+    background-color: #ffffff;
+}
+
+.map {
+    height: 767px;
+    background: url(../images/map.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #ffffff;
+}

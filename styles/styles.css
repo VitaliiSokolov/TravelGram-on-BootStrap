@@ -472,12 +472,15 @@ margin: 45px 0px 0px 0px;
     display: flex;
     justify-content: inherit;
     align-content: center;
-    align-items: center;
+    align-items: center;    
+    margin-top: 30px;
 }
 
 .social-aboutme {
     text-decoration: none;
     font-size: 49px;
+    margin-left: 5px;
+    margin-right: 5px;
 }
 
 .facebook-a:hover {    
@@ -511,14 +514,41 @@ margin: 45px 0px 0px 0px;
     background-repeat: no-repeat;
     background-position: center;
     box-shadow: 0px 11px 15.84px 2.16px rgba(0, 0, 0, 0.33);
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
 }
 
 .input-email {
+    width: 600px;
+    height: 30px;
+    font-family: 'Merriweather-LightItalic';
+    font-size: 20px;
+    border: none;
+    margin: 100px 0px 0px 0px;
+}
 
+.line-newsletter {
+    width: 600px;
+    height: 1px;
+    border: 1px solid gray;
+    background-color: black;    
+    margin: 10px 0px 25px 0px;
 }
 
 .signup-button {
-    
+    width: 600px;
+    height: 60px;
+    font-family: 'Dosis-SemiBold';
+    font-size: 20px;
+    text-transform: uppercase;
+    background-color: #a9b3e3;
+}
+
+.signup-button a {
+    color: #ffffff;
 }
 
 /*CATEGORIES*/

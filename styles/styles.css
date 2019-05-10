@@ -507,26 +507,39 @@ margin: 45px 0px 0px 0px;
 
 
 .newsletter {
-    height: 150px;
+    height: 300px;
+    width: 600px;
     margin: 45px 0px 0px 0px; 
+    background: url("../images/Newsletter-background.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    box-shadow: 0px 11px 15.84px 2.16px rgba(0, 0, 0, 0.33);
 }
 
 .categories {
-    height: 150px;
-    margin: 45px 0px 0px 0px; 
+    height: 330px;
+    width: 600px;
+    margin: 45px 0px 0px 0px;
+    box-shadow: 0px 11px 15.84px 2.16px rgba(0, 0, 0, 0.33); 
 }
 
 .recent-post {
-    height: 150px;
+    height: 790px;
+    width: 600px;
     margin: 45px 0px 0px 0px; 
+    box-shadow: 0px 11px 15.84px 2.16px rgba(0, 0, 0, 0.33);
 }
 
 .tags {
-    height: 150px;
+    height: 350px;
+    width: 600px;
     margin: 45px 0px 0px 0px; 
+    box-shadow: 0px 11px 15.84px 2.16px rgba(0, 0, 0, 0.33);
 }
 
 .contact-me {
-    height: 150px;
-    margin: 45px 0px 70px 0px; 
+    height: 500px;
+    width: 600px;
+    margin: 45px 0px 70px 0px;
+    box-shadow: 0px 11px 15.84px 2.16px rgba(0, 0, 0, 0.33); 
 }

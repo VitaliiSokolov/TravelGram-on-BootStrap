@@ -551,13 +551,41 @@ margin: 45px 0px 0px 0px;
     color: #ffffff;
 }
 
+.signup-button a:hover {
+    color: pink;
+    text-decoration: none;
+}
+
 /*CATEGORIES*/
 .categories {
     height: 330px;
     width: 600px;
     margin: 45px 0px 0px 0px;
     box-shadow: 0px 11px 15.84px 2.16px rgba(0, 0, 0, 0.33); 
+    background: url("../images/categories.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-end;
+    align-items: center;
+    justify-content: center;
 }
+
+.categories a {
+    width: 600px;
+    height: 55px;
+    text-align: center;
+    font-family: 'Myriad Pro Regular';
+    font-size: 18px;
+    color: #000;
+}
+
+.categories a:hover {
+    color: pink;
+    text-decoration: none;
+}
+
 
 /*RECENT POST*/
 .recent-post {

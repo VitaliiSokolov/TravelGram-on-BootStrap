@@ -657,6 +657,41 @@ margin: 45px 0px 0px 0px;
     width: 600px;
     margin: 45px 0px 0px 0px; 
     box-shadow: 0px 11px 15.84px 2.16px rgba(0, 0, 0, 0.33);
+    background: url("../images/tags.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+}
+
+.tags-row {
+    height: 70px;
+    width: 600px;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+.tags-point {
+    height: 50px;
+    width: 210px;
+    border: solid #ffc908 3px;
+}
+
+.tags-point a {
+    color: #000;
+    text-align: left;
+    font-family: 'Myriad Pro Regular';
+    font-size: 33px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.tags-point a:hover {
+    color: pink;
+    text-decoration: none;
 }
 
 /*CONTACT ME*/

@@ -377,6 +377,10 @@ i {
     height: 46px;
 }
 
+.explore-button a:hover {
+    text-decoration: none;
+}
+
 .slider-paths {
     opacity: 30%;
     width: 65px;
@@ -757,10 +761,13 @@ margin: 45px 0px 0px 0px;
     text-align: center;
     font-family: 'OpenSans-Regular';
     font-size: 43px;
-    color: #000;
-}
-
-button {
+    color: #000;    
     margin-left: 205px;
     border-radius: 5%;
+}
+
+#send:hover {
+    color: blueviolet;
+    border: 2px solid green;
+    text-decoration: none;
 }

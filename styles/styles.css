@@ -64,6 +64,9 @@
     font-weight: normal;
 }
 
+/*HEADER*/
+
+
 .search {
     align-items: center;
 }
@@ -239,7 +242,6 @@ i {
     background: red;
     text-decoration: none;
 }
-
 /*HEADER SLIDER*/
 
 .header-slider {
@@ -874,9 +876,25 @@ i {
 
 
 .social-footer {
-    height: 115px;
-    margin-top: 30px;
+    height: 115px;    
+    display: flex;
+    align-content: space-around;
+    align-items: baseline;
+    justify-content: center;
 }
+
+.connected-footer a {
+    font-family: 'FontAwesome';
+    color: #000;    
+    text-decoration: none;
+    margin-right: 15px;
+}
+
+.connected-footer a:hover {
+    color: pink;
+    text-decoration: none;
+}
+
 
 .logoline-footer {
     height: 400px;

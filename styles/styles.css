@@ -64,6 +64,13 @@
     font-weight: normal;
 }
 
+@font-face {
+    font-family: "HelveticaLTStd-UltraComp";
+    src: url("../fonts/HelveticaLTStd-UltraComp.otf");
+    font-style: normal;
+    font-weight: normal;
+}
+
 /*HEADER*/
 
 
@@ -1040,4 +1047,50 @@ i {
 .nav-link-footer:hover {
     color: pink;
     text-decoration: none;
+}
+
+/*RETURN BUTTON*/
+
+.return-block {
+    width: 200px;
+    height: 69px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.returtbutton-footer {
+    background: url("../images/return-button.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100px;
+    height: 70px;
+    position: absolute;
+    bottom: 33px;
+    background-color: #e9e9e9;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.returtbutton-footer:hover {
+    border: solid 1px green;
+}
+
+/*INFO*/
+
+.info {
+    background-color: #ffffff;
+    width: 100%;
+    height: 70px;
+}
+
+.info-footer {
+    width: 100%;
+    height: 55px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 20px;
+    font-family: 'HelveticaLTStd-UltraComp';
+    font-size: 27px;
 }

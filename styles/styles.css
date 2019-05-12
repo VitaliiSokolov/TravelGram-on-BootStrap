@@ -994,21 +994,50 @@ i {
     padding-right: 0px;
 }
 
+.logotip-line {
+    width: 100%;
+    height: 160px;
+}
+
 .logo-footer {
     width: 100%;
-    height: 185px;
+    height: 175px;
+    background-color: #fff;
     background: url("../images/Mountains.png");
     background-position: center;
     background-repeat: no-repeat;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.header-logo-footer {
+    height: 40px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    width: 100%;
+    color: #ffffff;
 }
 
 /*NAVIGATION*/
 
-/*.navigation {
-    display: flex;
-    flex-direction: row;
-    align-content: space-around;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: nowrap;
-}*/
+.navigation {
+    width: 100%;
+    margin-bottom: 70px;    
+    margin-top: 40px;
+}
+
+.nav-link-footer {
+    font-size: 16px;
+    font-family: 'MyriadPro-Semibold';
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #242929;
+}
+
+.nav-link-footer:hover {
+    color: pink;
+    text-decoration: none;
+}

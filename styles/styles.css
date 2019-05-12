@@ -94,18 +94,32 @@
 }
 
 .logo {
-
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+    align-items: initial;
 }
 
 .logo-header {
-    height: 165px;
+    height: 170px;
     background: url(../images/Mountains.png);
     background-repeat: no-repeat;
     background-position: center;
+    width: 100%
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
 }
 
 .header-logo {
-    
+    height: 40px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    width: 100%;
 }
 
 
@@ -430,7 +444,7 @@ i {
     box-shadow: 0px 11px 15.84px 2.16px rgba(0, 0, 0, 0.33);
     background: url("../images/where\ i\ am.png");
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: top;
     height: 900px;
     width: 100%;
     
@@ -469,7 +483,7 @@ i {
     margin: 45px 0px 0px 0px;
     box-shadow: 0px 11px 15.84px 2.16px rgba(0, 0, 0, 0.33);
     background: url("../images/aboutme.png");
-    background-position: center;
+    background-position: top;
     background-repeat: no-repeat;
     width: 100%;
     height: 895px;
@@ -561,9 +575,8 @@ i {
     margin: 45px 0px 0px 0px; 
     background: url("../images/Newsletter-background.png");
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: bottom;
     box-shadow: 0px 11px 15.84px 2.16px rgba(0, 0, 0, 0.33);
-
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -613,7 +626,7 @@ i {
     box-shadow: 0px 11px 15.84px 2.16px rgba(0, 0, 0, 0.33); 
     background: url("../images/categories.png");
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: top;
     display: flex;
     flex-wrap: wrap;
     align-content: flex-end;
@@ -644,7 +657,7 @@ i {
     box-shadow: 0px 11px 15.84px 2.16px rgba(0, 0, 0, 0.33);
     background: url("../images/recent\ post.png");
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: top;
     display: flex;
     flex-wrap: wrap;
     align-content: center;
@@ -665,7 +678,7 @@ i {
     width: 32%;
     background: url("../images/recent-post-IMG.png");
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: top;
 }
 
 .recent-post-text {
@@ -700,7 +713,7 @@ i {
     box-shadow: 0px 11px 15.84px 2.16px rgba(0, 0, 0, 0.33);
     background: url("../images/tags.png");
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: top;
     display: flex;
     flex-wrap: wrap;
     align-content: center;
@@ -912,9 +925,23 @@ i {
     background-position: center;
 }
 
+.row-footer-social {
+    margin-right: 0px;
+    margin-left: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
 
-
-
+.social-padding {
+    padding-left: 0px;
+    padding-right: 0px;
+}
 
 .social-footer {
     height: 115px;    
@@ -922,6 +949,11 @@ i {
     align-content: space-around;
     align-items: baseline;
     justify-content: center;
+}
+
+.connected-footer {
+    padding: 0px;
+    margin: 0px;
 }
 
 .connected-footer a {
@@ -936,7 +968,47 @@ i {
     text-decoration: none;
 }
 
+/*MENU FOOTER*/
+
+.footer {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.menu-footer {
+    width: 100%;
+    background-color: #737373;
+}
+
 
 .logoline-footer {
-    height: 400px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    margin-left: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
 }
+
+.logo-footer {
+    width: 100%;
+    height: 185px;
+    background: url("../images/Mountains.png");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/*NAVIGATION*/
+
+/*.navigation {
+    display: flex;
+    flex-direction: row;
+    align-content: space-around;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+}*/

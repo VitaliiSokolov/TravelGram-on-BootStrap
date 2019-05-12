@@ -433,6 +433,11 @@ i {
     background-position: center;
     height: 900px;
     width: 100%;
+    
+    display: flex;
+    align-items: flex-end;
+    align-content: center;
+    justify-content: space-around;
 }
 
 .map {
@@ -446,7 +451,7 @@ i {
     align-content: center;
     justify-content: center;
     height: 800px;
-    width: 100%;
+    width: 98%;
 }
 
 .empty-map-block {
@@ -489,7 +494,7 @@ i {
 }
 
 .aboutme-text {
-    height: 175px;
+    height: 240px;
     width: 100%;
     font-size: 24px;
     font-family: 'Myriad Pro Regular';
@@ -501,12 +506,13 @@ i {
     font-family: 'NEOTERIC.ttf';
     font-size: 36px;
     width: 100%;
-    height: 30px;
+    height: 20px;
     text-align: center;
+    line-height: 0em;
 }
 
 .aboutme-connected {
-    height: 140px;
+    height: 70px;
     width: 100%;
     text-align: center;
     display: flex;
@@ -523,7 +529,6 @@ i {
     justify-content: inherit;
     align-content: center;
     align-items: center;    
-    margin-top: 30px;
 }
 
 .social-aboutme {

@@ -95,6 +95,11 @@
     border: none;
 }
 
+.input-icon{
+    background-color: #fff;
+    border: none;
+}
+
 .input-icon a {
     font-family: fontawesome;
     font-size: 15px;
@@ -103,7 +108,7 @@
 }
 
 .input-icon a:hover {
-    color: pink;
+    color: skyblue;
     text-decoration: none;
 }
 
@@ -1258,14 +1263,14 @@ i {
     color: #a8aeae;
 }
 
-.fa-heart-o {
+.datalikes {
     color: #aedcde;
     font-size: 30px;
 }
 
-.fa-comment-o {
+.datalikes {
     color: #aedcde;
-    
+    font-size: 30px;
 }
 
 .blog-grid-content-case-buttons {
@@ -1340,9 +1345,110 @@ i {
     box-shadow: 0px 11px 15.84px 2.16px rgba(0, 0, 0, 0.33);
 }
 
+/*NEXT PAGE NAV*/
+
 .next-page {
-    height: 120px;
-    margin-top: 70px;
+    height: 55px;
+    margin-top: 135px;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+}
+
+.pages-block {
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+
+.page {
+    border-radius: 50%;
+    width: 55px;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+}
+
+.page:hover {
+    background-color: #ffc908;
+}
+
+.page a {
+    color: #000;
+    text-decoration: none;
+    font-family: 'MyriadPro-Semibold';
+    font-size: 20px;
+}
+
+.page a:hover {
+    color: green;
+}
+
+.previous-blok {
+    font-family: 'MyriadPro-Semibold';
+    font-size: 24px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-content: center;
+    align-items: center;
+}
+
+.previous-blok-button {
+     display: flex;
+     flex-direction: row;
+     flex-wrap: nowrap;
+     justify-content: space-between;
+     align-content: center;
+     align-items: center;  
+     width: 25%; 
+}
+
+.next-block {
+    font-family: 'MyriadPro-Semibold';
+    font-size: 24px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    align-content: center;
+    align-items: center;
+}
+
+.next-block-button {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    width: 17%;
+}
+
+.arrow-page {
+    font-family: 'FontAwesome';
+    font-size: 24px;
+}
+
+.arrow-link {
+    color: #000;
+    text-decoration: none;
+}
+
+.arrow-link:hover {
+    color: green;
+    text-decoration: none;
 }
 
 /*FOOTER*/
@@ -1540,22 +1646,26 @@ i {
     justify-content: flex-end;
 }
 
-.returtbutton-footer {
+.returnbutton-footer {
     background: url("../images/return-button.png");
     background-position: center;
     background-repeat: no-repeat;
     width: 100px;
-    height: 70px;
+    height: 75px;
     position: absolute;
     bottom: 33px;
     background-color: #e9e9e9;
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     align-items: center;
 }
 
-.returtbutton-footer:hover {
-    border: solid 1px green;
+.return {
+    color: #000;
+}
+
+.returnbutton-footer:hover {
+    color: red;
 }
 
 /*INFO*/
